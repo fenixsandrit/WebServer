@@ -1,10 +1,10 @@
-package com.company.server;
+package com.company.webserver;
 
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server {
+public class ServerTest {
     private static Socket clientSocket; //сокет для общения
     private static ServerSocket server; // серверсокет
     private static BufferedReader in; // поток чтения из сокета
